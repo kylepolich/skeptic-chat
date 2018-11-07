@@ -3,7 +3,7 @@ const default_config = {
   events: {}
 };
 
-export default (config = {}) => {
+const SkepticClient = (config = {}) => {
   // Merge config with defaults
   config = Object.assign({}, default_config, config);
   // Connect to Server Socket
@@ -16,3 +16,5 @@ export default (config = {}) => {
   }
   return io;
 };
+
+export default SkepticClient;

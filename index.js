@@ -1,3 +1,3 @@
-import Skeptic from './src';
+var Skeptic = require('./lib');
 
-export default Skeptic;
+module.exports = Skeptic;
