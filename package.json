@@ -1,6 +1,6 @@
 {
   "name": "skeptic-chat",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Basic Chat Interface with client and server wrappers.",
   "main": "./lib/index.js",
   "scripts": {
