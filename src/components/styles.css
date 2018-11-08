@@ -17,6 +17,7 @@
 
 .sc-message{margin:18px 0;}
 .sc-bubble{margin:12px 0;}
+.sc-bubble+.sc-bubble{margin-top:0;}
 .sc-bubble-content{display:inline-block;padding:15px 20px;border-radius:24px;box-shadow:0px 4px 12px -3px rgba(0,0,0,0.5);max-width:75%;}
 .sc-message.outgoing .sc-bubble-content{background:#7fb2de;border-top-left-radius:0;}
 .sc-message.incoming,

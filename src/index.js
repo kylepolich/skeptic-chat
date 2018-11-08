@@ -7,4 +7,5 @@ import Footer from './components/footer';
 
 const Skeptic = { Client, Chat, Header, Body, Message, Footer };
 
+export { Client, Chat, Header, Body, Message, Footer };
 export default Skeptic;
