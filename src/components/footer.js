@@ -12,7 +12,6 @@ const Footer = React.forwardRef((props, ref) => {
         <input className="sc-input form-control" onChange={props.onChange} onKeyDown={props.onKeyDown} placeholder={props.placeholder} value={props.value} />
         {props.onAttach && 
           <ReactDropzone className="sc-attach input-group-addon btn-default"
-            accept="image/*"
             multiple={false}
             onDrop={props.onAttach}
             style={{}}
